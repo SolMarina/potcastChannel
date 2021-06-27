@@ -322,7 +322,7 @@ header button:hover {
 .chapters h2 {
   position: relative;
   margin-left: 16px;
-  padding-top: 64px;
+  padding-top: 50px;
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
   font-size: 36px;
@@ -334,17 +334,17 @@ header button:hover {
 
 .chapters .podcasts {
   position: relative;
-  margin-top: 21px;
-  margin-left: 11px;
-  margin-right: 11px;
+  margin-top: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
   z-index: 2;
 }
 
 .chapters .podcasts .pod {
   width: 100%;
-  height: 152px;
+  height: 170px;
   border: none;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .chapters .podcasts .pod:last-child {
@@ -363,14 +363,9 @@ header button:hover {
   }
   .chapters .podcasts {
     margin-top: 26px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    height: 150px;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -ms-flex-wrap: wrap;
+    
     flex-wrap: wrap;
   }
   .chapters .podcasts .pod {
@@ -643,7 +638,7 @@ header button:hover {
     font-size: 48px;
     line-height: 62px;
   }
-  .topics .topicsCards .icon-box h4 {
+  .topics .topicsCards .topicsBox h4 {
     margin-top: 16px;
     width: 220px;
   }
@@ -685,7 +680,7 @@ header button:hover {
   align-items: center;
 }
 
-.topics .topicsCards .icon-box {
+.topics .topicsCards .topicsBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -699,13 +694,13 @@ header button:hover {
   margin-bottom: 36px;
 }
 
-.topics .topicsCards .icon-box .temas-icon {
+.topics .topicsCards .topicsBox .icon {
   width: 104px;
   padding-bottom: 13px;
   padding-top: 13px;
 }
 
-.topics .topicsCards .icon-box h4 {
+.topics .topicsCards .topicsBox h4 {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 600;
   font-size: 24px;
@@ -714,7 +709,7 @@ header button:hover {
   width: 288px;
 }
 
-.topics .topicsCards .icon-box:last-child {
+.topics .topicsCards .topicsBox:last-child {
   margin-bottom: 0;
 }
 
@@ -731,14 +726,14 @@ header button:hover {
     -ms-flex-align: start;
     align-items: flex-start;
   }
-  .topics .topicsCards .icon-box {
+  .topics .topicsCards .topicsBox {
     width: 50%;
     margin: 0;
   }
-  .topics .topicsCards .icon-box:nth-of-type(3) {
+  .topics .topicsCards .topicsBox:nth-of-type(3) {
     margin-top: 30px;
   }
-  .topics .topicsCards .icon-box:last-child {
+  .topics .topicsCards .topicsBox:last-child {
     margin-top: 30px;
   }
 }
